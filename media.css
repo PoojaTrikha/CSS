@@ -1,0 +1,34 @@
+@media(max-width: 768px) {
+    .dotted{
+        background-color: firebrick;
+        color: #fff;
+    }
+    /*.display{
+        background-color: firebrick;
+    }
+    .display p{
+        color: #fff;
+        margin: 10px 0px 0px 0px;
+    }*/
+    .display header{
+        background-color: dodgerblue;
+        height: 180px;
+        text-align: center;
+    }
+    .display header nav ul{
+        float: none;
+    }
+    .display header nav ul li{
+        display: block;
+    }
+    .display header nav ul li:hover{
+        background-color: dimgray;
+    }   
+}
+
+@media(min-width:769px) and (max-width:992px){
+    .display{
+        background-color: fuchsia;
+    }
+}
+
